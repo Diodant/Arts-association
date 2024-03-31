@@ -1,18 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --color-grey:#4d4d4d;
-    --color-grey-rgb:77,77,77;
-    --color-grey-light:#d9d9d9;
-    --color-grey-light-rgb:217,217,217;
-    --color-grey-lighter:#eeeff2;
-    --color-grey-lighter-rgb:238,239,242;
-    --color-blue:#08457E;
-    --color-blue-rgb:0,54,116;
-    --color-blue-light:#3f6fb6;
-    --color-blue-light-rgb:63,111,182;
-    --color-blue-lighter:#08457E;
-    --color-blue-lighter-rgb:69,150,226;
+
     --family-title-regular:opensans-light, Arial, Helvetica, sans-serif;
     --family-title-bold:opensans-regular, Arial, Helvetica, sans-serif;
     --family-text-light:opensans-light, Arial, Helvetica, sans-serif;
@@ -34,7 +23,7 @@ html, body {
     min-height:100%;
 }
 html {
-    background-image:url(./images/bg.jpg);
+    /* background-image:url(./images/bg.jpg); */
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -532,9 +521,11 @@ a.is-more-glr:hover::before {
     overflow:hidden;
     text-overflow:ellipsis;
     position:relative;
-    background:linear-gradient(to right, var(--color-blue-light) 0%, var(--color-blue-lighter) 100%);
+    background:linear-gradient(135deg, #623089 3%, #bd0283 47%, #e72f68 98%);
     color:#fff;
-    font-family:var(--family-title-regular);
+    font-family: 'Circe', sans-serif;
+    font-weight: 300;
+
     border-radius:999px;
     text-align:center;
 }
@@ -544,7 +535,7 @@ a.is-more-glr:hover::before {
     left:10%;
     right:10%;
     bottom:50%;
-    font-size:1.875rem;
+    font-size:30px;
 }
 .xCounter .xCounterVar {
     display:block;
@@ -552,7 +543,40 @@ a.is-more-glr:hover::before {
     left:10%;
     right:10%;
     top:50%;
-    font-size:1.25rem;
+    font-size:26px;
+}
+
+.geography-title {
+  font-size: 45px;
+  margin-top: 60px;
+  margin-bottom: 28px;
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.geography-content {
+  position: relative;
+  background-image: url('./images/photorealistic-earth-planet.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 300px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.geography-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 
@@ -566,7 +590,7 @@ a.is-more-glr:hover::before {
   display: inline-flex;
   position: relative;
     font-size: 45px;
-    margin-bottom: 28px;
+    margin-bottom: 60px;
     text-align: center;
     color: #333333;
     font-weight:600;
@@ -600,31 +624,37 @@ font-size: 28px;
     padding-bottom: 8px;
   }
 
-  .expertsTable {
-    font-family: Arial, sans-serif;
-    max-width: 100%;
-    margin: 20px;
-    font-size: 18px;
-    overflow-x: auto;
-  }
-
-  .expertsTable thead {
-    font-family: var(--family-title-regular);
-  }
-
   .expertsTable table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-family:var(--family-text-light);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 15px;
   }
 
-  .expertsTable th,
-  .expertsTable td {
-
+  .expertsTable th, .expertsTable td {
+    padding: 12px 15px;
     text-align: left;
-    padding: 8px;
     border-bottom: 1px solid #ddd;
+  }
+
+  .expertsTable th {
+    background:  #bd0283;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .expertsTable td {
+    font-size: 20px;
+
+  }
+
+  .expertsTable tr:hover {
+    background-color: #f9e6f2;
+    cursor: pointer;
   }
 
 .p-0 {
@@ -636,13 +666,9 @@ font-size: 28px;
 }
 
 .contacts-container {
-    max-width: 1200px;
     margin: 40px auto;
     padding: 15px;
-    background: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 20px;
+    text-align: center;
   }
 
   .contacts-container div {
@@ -652,12 +678,25 @@ font-size: 28px;
   .contacts-container strong {
     display: block;
     margin-bottom: 5px;
-    font-family:var(--family-text-regular);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
   }
 
   .contacts-container p {
     color: #555;
     margin-left: 20px;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  .image-contacts {
+    margin: 40px 0px;
+  }
+
+  .image-contacts img{
+    width: 600px;
+    height: auto;
   }
 
   .subtitle {
@@ -720,6 +759,10 @@ font-size: 28px;
     padding: 0px 20px;
   }
 
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+
   .fs{
     min-height: 40px;
     font-size: 1.25rem;
@@ -742,40 +785,36 @@ font-size: 28px;
   }
 
   .footer {
-    background-color: var(--color-blue-lighter);
+    background-color: #262626;
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
     flex-wrap: wrap;
-    /* border-radius: 0 0 5px 5px; */
+    margin-top: 40px;
   }
 
-  .footer-section {
-    display: flex;
-    flex-direction: column;
+  .footer-container {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
   }
 
-  .footer-section h4 {
-    margin-bottom: 10px;
-  }
-
-  .footer-section a {
-    color: white;
-    text-decoration: none;
+  .footer-container strong {
+    display: block;
     margin-bottom: 5px;
-    transition: text-decoration 0.3s;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
   }
 
-  .footer-section a:hover {
-    text-decoration: underline;
+  .footer-container p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
   }
 
-  @media (max-width: 768px) {
-    .footer-section {
-      margin-bottom: 20px;
-    }
-  }
   .articlesContainer {
     display: flex;
     align-items: center;
@@ -922,7 +961,7 @@ font-size: 28px;
 
   .main-content {
     position: relative;
-    background-image: url('./images/pexels-cottonbro-6896221-scaled.jpg');
+    background-image: url('./images/1.webp');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -939,7 +978,7 @@ font-size: 28px;
     left: 0;
     right: 0;
     bottom: 0;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1px);
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
@@ -973,10 +1012,9 @@ font-size: 28px;
 
   .join-button-wrapper {
     display: flex;
-    justify-content: center; /* Центрирует кнопку по горизонтали */
-    align-items: center; /* Центрирует кнопку по вертикали, если это необходимо */
-    padding: 20px; /* Добавляет отступ внутри контейнера */
-    /* Вы можете добавить дополнительные стили, если это необходимо, например, максимальную ширину или отступы */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
 
   .join-button {

@@ -1,5 +1,4 @@
 import React from 'react';
-import EarthImg from '../images/earth.webp'
 import { Helmet } from 'react-helmet-async';
 
 function Geography() {
@@ -9,16 +8,18 @@ function Geography() {
         <title>География</title>
         <meta
         name="description"
-        content="География Ассоциации Некоммерческого Партнерства 
-        «Международная Ассоциация Маркетологов СНГ»"
+        content="География Международной Ассоциации Деятелей Искусств"
         />
         <link rel="canonical" href="https://marketing-association.com/geography"/>
       </Helmet>
-        <div class="block">
-    <div class="image is-3by1 is-bgcover"><img src={EarthImg} alt="Earth" /></div>
-</div>
-        <div class="title is-font-title-regular has-text-centered has-text-var-blue">География Международной Ассоциации Маркетологов</div>
-        <div class="block has-text-centered has-text-var-blue is-font-title-regular">Всего членов: <span class="is-size-4">345</span></div>
+      <div className="geography-content">
+        <div className="geography-blur"></div>
+        <div className="content-overlay">
+          <h1 className="main-title">География Международной Ассоциации</h1>
+          <h1 className="main-title">Деятелей Искусств</h1>
+        </div>
+      </div>
+        <div class="geography-title">Всего Членов Ассоциации: 345</div>
         <div class="block my-6">
     <div class="columns is-flex-wrap-wrap">
                     <div class="column">
@@ -30,7 +31,7 @@ function Geography() {
                     <div class="column">
                 <div class="xCounter">
                     <div class="xCounterVal">76</div>
-                    <div class="xCounterVar">Украины</div>
+                    <div class="xCounterVar">Украина</div>
                 </div>
             </div>
                     <div class="column">

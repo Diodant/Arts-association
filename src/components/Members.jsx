@@ -29,7 +29,9 @@ function Members() {
         />
         <link rel="canonical" href="https://marketing-association.com/members" />
       </Helmet>
+      <div className='xContent-wrapper'>
         <h1 className="title">Список членов Ассоциации:</h1>
+        </div>
         <div className="expertsTable">
         <table>
           <thead>
@@ -37,7 +39,7 @@ function Members() {
               <th>№ Сертификата</th>
               <th>ФИО</th>
               <th>Страна</th>
-              <th>Должность</th>
+              <th>Профессия</th>
               <th>Год вступления</th>
             </tr>
           </thead>
