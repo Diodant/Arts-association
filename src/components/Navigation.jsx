@@ -76,22 +76,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-<nav className="menu">
-  <div className="logo">
-    <img src="path-to-your-logo.png" alt="Logo" />
-  </div>
-  <ul className="navigation">
-    <li className="nav-item">
-      <a href="/" className="nav-link">Главная</a>
-    </li>
-    <li className="nav-item">
-      <a href="/about" className="nav-link">Об ассоциации</a>
-      <div className="dropdown-content">
-        <a href="/about#more-info">Подробная информация</a>
-        <a href="/about#structure">Структура</a>
-        <a href="/about#join">Вступить</a>
-      </div>
-    </li>
-  </ul>
-</nav>

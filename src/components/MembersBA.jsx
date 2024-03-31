@@ -31,7 +31,7 @@ function MembersBA() {
         <title>Члены правления</title>
         <meta
         name="description"
-        content="Члены правления Международной Ассоциации маркетологов СНГ"
+        content="Члены правления Международной Ассоциации Деятелей Искусств"
         />
         <link rel="canonical" href="https://marketing-association.com/membersBA" />
       </Helmet>

@@ -579,6 +579,27 @@ a.is-more-glr:hover::before {
   z-index: 1;
 }
 
+.ethics-content {
+  position: relative;
+  background-image: url('./images/ethics.webp');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 320px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.statute-subtitle {
+  color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+    font-size: 35px;
+    text-align: center;
+}
+
 
 .criteriaList {
     list-style-type: disc;
@@ -880,10 +901,38 @@ font-size: 28px;
     }
   }
 
-  .li_style {
-    color: var(--color-blue-light);
-    text-decoration: underline;
+
+
+  .statuteList {
+    list-style: none;
+    padding-left: 0;
+    font-size: 28px;
+  }
+
+  .statuteList li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
     cursor: pointer;
+  }
+
+  .statuteList li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #363636;
+    border-radius: 50%;
+  }
+
+  .statuteList li:hover {
+    background: linear-gradient(135deg, #623089 3%, #bd0283 47%, #e72f68 98%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 
   .orderImage {
