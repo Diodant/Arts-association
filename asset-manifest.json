@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arts-association/static/css/main.9ad4c509.css",
-    "main.js": "/Arts-association/static/js/main.09b09132.js",
+    "main.js": "/Arts-association/static/js/main.f898cc17.js",
     "static/js/453.6de8948d.chunk.js": "/Arts-association/static/js/453.6de8948d.chunk.js",
     "static/media/articlepage12.jpg": "/Arts-association/static/media/articlepage12.b4ac83788c0fe0732a48.jpg",
     "static/media/photorealistic-earth-planet.jpg": "/Arts-association/static/media/photorealistic-earth-planet.d56518d2508245ba6793.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/Arts-association/index.html",
     "static/media/arrow.svg": "/Arts-association/static/media/arrow.b47aba85701d32f77373af9326cdfc5f.svg",
     "main.9ad4c509.css.map": "/Arts-association/static/css/main.9ad4c509.css.map",
-    "main.09b09132.js.map": "/Arts-association/static/js/main.09b09132.js.map",
+    "main.f898cc17.js.map": "/Arts-association/static/js/main.f898cc17.js.map",
     "453.6de8948d.chunk.js.map": "/Arts-association/static/js/453.6de8948d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ad4c509.css",
-    "static/js/main.09b09132.js"
+    "static/js/main.f898cc17.js"
   ]
 }
