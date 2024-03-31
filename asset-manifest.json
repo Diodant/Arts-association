@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arts-association/static/css/main.9ad4c509.css",
-    "main.js": "/Arts-association/static/js/main.f898cc17.js",
+    "main.css": "/Arts-association/static/css/main.b90b82ae.css",
+    "main.js": "/Arts-association/static/js/main.ecf9c0f2.js",
     "static/js/453.6de8948d.chunk.js": "/Arts-association/static/js/453.6de8948d.chunk.js",
     "static/media/articlepage12.jpg": "/Arts-association/static/media/articlepage12.b4ac83788c0fe0732a48.jpg",
     "static/media/photorealistic-earth-planet.jpg": "/Arts-association/static/media/photorealistic-earth-planet.d56518d2508245ba6793.jpg",
@@ -29,14 +29,15 @@
     "static/media/Circe-Thin.woff": "/Arts-association/static/media/Circe-Thin.1f69b3e567fba63f038e.woff",
     "static/media/Circe-ExtraBold.woff": "/Arts-association/static/media/Circe-ExtraBold.02f7b8cbfff901e3f588.woff",
     "static/media/reviews.webp": "/Arts-association/static/media/reviews.60778a391bd4a0f6e3a2.webp",
+    "static/media/ethics.webp": "/Arts-association/static/media/ethics.03aeb6d1213ca0ecca17.webp",
     "index.html": "/Arts-association/index.html",
     "static/media/arrow.svg": "/Arts-association/static/media/arrow.b47aba85701d32f77373af9326cdfc5f.svg",
-    "main.9ad4c509.css.map": "/Arts-association/static/css/main.9ad4c509.css.map",
-    "main.f898cc17.js.map": "/Arts-association/static/js/main.f898cc17.js.map",
+    "main.b90b82ae.css.map": "/Arts-association/static/css/main.b90b82ae.css.map",
+    "main.ecf9c0f2.js.map": "/Arts-association/static/js/main.ecf9c0f2.js.map",
     "453.6de8948d.chunk.js.map": "/Arts-association/static/js/453.6de8948d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ad4c509.css",
-    "static/js/main.f898cc17.js"
+    "static/css/main.b90b82ae.css",
+    "static/js/main.ecf9c0f2.js"
   ]
 }
