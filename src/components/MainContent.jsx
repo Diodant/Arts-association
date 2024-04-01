@@ -15,8 +15,8 @@ function MainContent() {
     <meta property="og:description" content="Международная Ассоциация Деятелей Искусств является организацией, объединяющей выдающихся профессионалов в области искусства."/>
     <meta property="og:url" content="https://marketing-association.com/"/>
     <meta property="og:image" content="../../public/preview.png"/>
-    <link rel="icon" href="../../public/logo.svg" />
-    <link rel="shortcut icon" href="../../public/logo.svg" />
+    <link rel="icon" href="../../public/logo.png" />
+    <link rel="shortcut icon" href="../../public/logo.png" />
         <meta
         name="description"
         content="Международная Ассоциация Деятелей Искусств является организацией, объединяющей выдающихся профессионалов в области искусства."

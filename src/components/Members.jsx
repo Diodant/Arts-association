@@ -20,7 +20,7 @@ function Members() {
 
 
     return (
-      <div className="xContent p-box py-6">
+      <div>
             <Helmet>
         <title>Список членов Ассоциации</title>
         <meta
@@ -29,6 +29,14 @@ function Members() {
         />
         <link rel="canonical" href="https://marketing-association.com/members" />
       </Helmet>
+      <div className="members-content">
+        <div className="content-blur"></div>
+        <div className="content-overlay">
+          <h1 className="main-title">Члены Международной Ассоциации</h1>
+          <h1 className="main-title">Деятелей Искусств</h1>
+        </div>
+      </div>
+      <div className="xContent p-box py-6">
       <div className='xContent-wrapper'>
         <h1 className="title">Список членов Ассоциации:</h1>
         </div>
@@ -66,6 +74,7 @@ function Members() {
             {page}
           </button>
         ))}
+      </div>
       </div>
     </div>
   );

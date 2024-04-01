@@ -13,7 +13,7 @@ function Geography() {
         <link rel="canonical" href="https://marketing-association.com/geography"/>
       </Helmet>
       <div className="geography-content">
-        <div className="geography-blur"></div>
+        <div className="content-blur"></div>
         <div className="content-overlay">
           <h1 className="main-title">География Международной Ассоциации</h1>
           <h1 className="main-title">Деятелей Искусств</h1>

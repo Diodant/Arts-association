@@ -35,7 +35,7 @@ function Statute() {
         />
         <link rel="canonical" href="https://marketing-association.com/statute"/>
       </Helmet>
-        <div className="title">
+        <div className="title p-60">
         УСТАВ Международной Ассоциации Деятелей Искусств
         </div>
         <div className='xContent-wrapper'>

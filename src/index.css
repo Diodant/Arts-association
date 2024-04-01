@@ -5103,7 +5103,7 @@
   color:#f65a5a
   }
   .panel-tabs:not(:last-child),.panel-block:not(:last-child){
-  border-bottom:1px solid #ededed
+  border-bottom:1px solid #ededed;
   }
   .panel-heading{
   background-color:#ededed;
@@ -15139,4 +15139,7 @@
   .py--auto{
   padding-top:-auto !important;
   padding-bottom:-auto !important
+  }
+  .block:not(:last-child) {
+    margin-bottom: 1.5rem;
   }

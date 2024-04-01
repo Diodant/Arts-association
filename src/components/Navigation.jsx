@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LogoImg from '../images/logo.png';
 
 function Navigation() {
   return (
    <div className="xNavi" id="xNaviID">
      <div className="columns is-flex-wfix is-vcentered">
+
        <div className="column xNaviMenu">
          <ul>
+         <img src={LogoImg} alt="Логотип" className="xNaviLogo"/>
          <li>
            <Link to="/" title="Главная">Главная</Link>
            </li>
@@ -47,23 +50,15 @@ function Navigation() {
            <Link to="/order" title="Награды">Награды</Link>
              <ul>
                <li>
-               <Link to="/order" title="Орден “За заслуги в маркетинге”">Орден “За заслуги в маркетинге”</Link>
+               <Link to="/order" title='Орден "Почетный деятель искусств"'>Орден "Почетный деятель искусств"</Link>
                </li>
                <li>
-               <Link to="/membersoforder" title="Кавалеры ордена «За заслуги в маркетинге»">Кавалеры ордена «За заслуги в маркетинге»</Link>
+               <Link to="/membersoforder" title="Кавалеры ордена «Заслуженный деятель искусств»">Кавалеры ордена «Заслуженный деятель искусств»</Link>
                </li>
              </ul>
            </li>
 	 	  <li>
-     <Link to="/articles" title="Публикации">Публикации</Link>
-             <ul>
-               <li>
-               <Link to="/articles" title="Статьи">Статьи</Link>
-               </li>
-               <li>
-               <Link to="/reviews" title="Рецензии">Рецензии</Link>
-               </li>
-             </ul>
+     <Link to="/articles" title="Новости">Новости</Link>
            </li>
            <li>
            <Link to="/contacts" title="Контакты">Контакты</Link>

@@ -66,6 +66,10 @@ a {
   color: inherit;
 }
 
+b {
+  color: #333333;
+}
+
 ::selection { background:#000; color:#fff; }
 ::-moz-selection { background:#000; color:#fff; }
 
@@ -251,7 +255,6 @@ a.is-more-glr:hover::before {
     z-index:100;
     top:-5px;
     background:#fff;
-    /* border-radius:5px 5px 0 0; */
     padding:1rem;
     border-bottom:solid 3px #bd0283;
 }
@@ -262,70 +265,15 @@ a.is-more-glr:hover::before {
     position:relative;
 }
 .xNaviLogo {
-    display:none;
+  display: block;
+  max-width: 85px;
+  height: auto;
+  margin-right: 20px;
 }
-.xNavi.xNaviFixed {
-    box-shadow:0 0 20px 0 rgba(0,0,0,0.2);
-}
-.xNavi.xNaviFixed .xNaviLogo {
-    display:block;
-}
-.xNaviLogo>a {
-    display:block;
-    padding:0;
-    margin:0;
-}
-.xNaviLogo .xNaviLogoPicture {
-    display:block;
-    width:60px;
-    height:60px;
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:contain;
-    overflow:hidden;
-}
-.xNaviLogo .xNaviLogoData {
-    display:none;
-}
-.xNaviLogo .xNaviLogoDataTitle {
-    display:block;
-    color:var(--color-blue);
-    font-family:var(--family-title-regular);
-    font-size:1.125rem;
-    line-height:1;
-    margin-top:0.125rem;
-}
-.xNaviLogo .xNaviLogoDataSubtitle {
-    display:block;
-    color:var(--color-blue-lighter);
-    font-size:0.625rem;
-    line-height:1;
-    margin-top:0.125rem;
-}
-
-@media screen and (max-width: 1024px) {
-    .xNaviLogo {
-        display:block;
-    }
-    .xNavi .xNaviLogo>a {
-        display:flex;
-        flex-direction:row;
-        flex-wrap:nowrap;
-        align-items:center;
-        gap:20px;
-    }
-    .xNaviLogo .xNaviLogoPicture {
-        display:block;
-    }
-    .xNaviLogo .xNaviLogoData {
-        display:block;
-    }
-}
-
 
 .xNaviMenu>ul {
     display:flex;
-    align-items:flex-end;
+    align-items:center;
     flex-wrap:nowrap;
     justify-content:center;
     gap:1.125rem;
@@ -357,6 +305,14 @@ a.is-more-glr:hover::before {
     overflow:hidden;
     text-overflow:ellipsis;
 }
+
+@media (max-width: 1150px) {
+  .xNaviMenu>ul>li>a {
+    font-size: 20px; /* Уменьшаем размер шрифта */
+    padding: 0.5rem 0; /* Уменьшаем размер отступов */
+  }
+}
+
 .xNaviMenu>ul>li>a::after {
     content:"";
     box-sizing:border-box;
@@ -548,7 +504,7 @@ a.is-more-glr:hover::before {
 
 .geography-title {
   font-size: 45px;
-  margin-top: 60px;
+  margin-top: 88px;
   margin-bottom: 28px;
   text-align: center;
   color: #333333;
@@ -569,16 +525,6 @@ a.is-more-glr:hover::before {
   overflow: hidden;
 }
 
-.geography-blur {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
 .ethics-content {
   position: relative;
   background-image: url('./images/ethics.webp');
@@ -586,6 +532,19 @@ a.is-more-glr:hover::before {
   background-position: center;
   height: 300px;
   padding: 320px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.members-content {
+  position: relative;
+  background-image: url('./images/membersimg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  padding: 300px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -687,38 +646,42 @@ font-size: 28px;
 }
 
 .contacts-container {
-    margin: 40px auto;
-    padding: 15px;
-    text-align: center;
-  }
+  margin: 40px auto;
+  padding: 15px;
+  text-align: center; /* Убедитесь, что весь контент выравнивается по центру */
+  width: 600px; /* Установите ширину контейнера соответствующей ширине изображения */
+}
 
-  .contacts-container div {
-    margin-bottom: 10px;
-  }
+.contacts-container div {
+  margin-bottom: 10px;
+}
 
-  .contacts-container strong {
-    display: block;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
-  }
+.contacts-container strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: 600;
+}
 
-  .contacts-container p {
-    color: #555;
-    margin-left: 20px;
-    font-size: 24px;
-    font-weight: 300;
-  }
+.contacts-container p {
+  color: #555;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0; /* Убрать отступы, если они не нужны */
+}
 
-  .image-contacts {
-    margin: 40px 0px;
-  }
+.image-contacts {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование содержимого по горизонтали */
+  justify-content: center;
+}
 
-  .image-contacts img{
-    width: 600px;
-    height: auto;
-  }
+.image-contacts img {
+  width: 600px;
+  height: auto;
+}
 
   .subtitle {
     font-size: 20px;
@@ -835,11 +798,42 @@ font-size: 28px;
     font-size: 20px;
     font-weight: 300;
   }
-
-  .articlesContainer {
+  .articles-content {
+    position: relative;
+    background-image: url('./images/articles.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 300px 0px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
+
+  .has-border {
+    border-color: #bd0283;
+  }
+  .articles-title {
+    display: block;
+    color: #333333;
+    font-size: 28px;
+    font-family: 'Circe', sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 0.625rem 0;
+    text-decoration: none;
+    text-align: start;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .articles-title:hover {
+    background: -webkit-linear-gradient(135deg, #623089 3%, #bd0283 47%, #e72f68 98%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
   .articlesImage {
     flex-basis: 60%;
@@ -850,16 +844,11 @@ font-size: 28px;
     height: 450px;
   }
 
-  .articlesText {
-    flex-basis: 40%;
-    padding-left: 20px;
-  }
-
   .articlesMember{
     align-items: center;
-    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #623089 3%, #bd0283 47%, #e72f68 98%);
     border-radius: 4px;
-    color: #4a4a4a;
+    color: #fff;
     display: inline-flex;
     font-size: 0.90rem;
     height: 2em;
@@ -869,39 +858,6 @@ font-size: 28px;
     padding-right: 0.75em;
     white-space: nowrap;
   }
-
-  .articlesText h1,
-  .articlesText h2 {
-    margin: 0;
-    padding: 0;
-    font-family: var(--family-title-regular);
-    color: var(--color-blue);
-  }
-
-  .articlesText h1 {
-    font-size: 1.25rem;
-  }
-
-  .articlesText h2 {
-    font-size: 2em;
-  }
-
-  @media (max-width: 768px) {
-    .articlesContainer {
-      flex-direction: column;
-    }
-
-    .articlesImage,
-    .articlesText {
-      flex-basis: 100%;
-    }
-
-    .articlesText {
-      padding-left: 0;
-    }
-  }
-
-
 
   .statuteList {
     list-style: none;
@@ -1027,7 +983,6 @@ font-size: 28px;
     left: 0;
     right: 0;
     bottom: 0;
-    backdrop-filter: blur(1px);
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
@@ -1120,5 +1075,5 @@ font-size: 28px;
     font-size: 28px;
   }
   .content-text {
-    display: block; /* Дает тексту возможность занимать доступное пространство */
+    display: block;
   }
