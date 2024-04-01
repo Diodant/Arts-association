@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Arts-association/static/css/main.b90b82ae.css",
-    "main.js": "/Arts-association/static/js/main.ecf9c0f2.js",
+    "main.css": "/Arts-association/static/css/main.b9166756.css",
+    "main.js": "/Arts-association/static/js/main.9115c022.js",
     "static/js/453.6de8948d.chunk.js": "/Arts-association/static/js/453.6de8948d.chunk.js",
     "static/media/articlepage12.jpg": "/Arts-association/static/media/articlepage12.b4ac83788c0fe0732a48.jpg",
     "static/media/photorealistic-earth-planet.jpg": "/Arts-association/static/media/photorealistic-earth-planet.d56518d2508245ba6793.jpg",
     "static/media/order.png": "/Arts-association/static/media/order.f1d04162432dad63818f.png",
     "static/media/img1.png": "/Arts-association/static/media/img1.9e2a3655b4e39cacc3fe.png",
+    "static/media/articles.webp": "/Arts-association/static/media/articles.962987b0732ba94e0c6c.webp",
+    "static/media/ethics.webp": "/Arts-association/static/media/ethics.3102edbe272a8e9209bc.webp",
     "static/media/1.webp": "/Arts-association/static/media/1.ea89c833f2ddc65c9af4.webp",
     "static/media/Circe-ExtraLight.eot": "/Arts-association/static/media/Circe-ExtraLight.0f3ca43ce4ca34c99c00.eot",
     "static/media/Circe-ExtraLight.ttf": "/Arts-association/static/media/Circe-ExtraLight.d95151f8b96ed97a9681.ttf",
@@ -20,24 +22,23 @@
     "static/media/Circe-Bold.ttf": "/Arts-association/static/media/Circe-Bold.63396ee791f60623acbf.ttf",
     "static/media/Circe-ExtraBold.eot": "/Arts-association/static/media/Circe-ExtraBold.4c74fd73e7d5ee9eee7d.eot",
     "static/media/Circe-ExtraBold.ttf": "/Arts-association/static/media/Circe-ExtraBold.87e2d898df4f6a61b4b8.ttf",
+    "static/media/membersimg.webp": "/Arts-association/static/media/membersimg.106aabd55010fffaeb1b.webp",
     "static/media/articlepage13.png": "/Arts-association/static/media/articlepage13.1f1a7492a923c6e4b035.png",
-    "static/media/articles.webp": "/Arts-association/static/media/articles.414433bdd0307efee706.webp",
+    "static/media/logo.png": "/Arts-association/static/media/logo.403a5796c9454b7ee028.png",
     "static/media/Circe-ExtraLight.woff": "/Arts-association/static/media/Circe-ExtraLight.27c9b3b45aa9e134e9d1.woff",
     "static/media/Circe-Light.woff": "/Arts-association/static/media/Circe-Light.0a23696bc00e1131f434.woff",
     "static/media/Circe-Bold.woff": "/Arts-association/static/media/Circe-Bold.8a1c4d2d35cdd2d6704b.woff",
     "static/media/Circe-Regular.woff": "/Arts-association/static/media/Circe-Regular.b3583e41e063203a7e74.woff",
     "static/media/Circe-Thin.woff": "/Arts-association/static/media/Circe-Thin.1f69b3e567fba63f038e.woff",
     "static/media/Circe-ExtraBold.woff": "/Arts-association/static/media/Circe-ExtraBold.02f7b8cbfff901e3f588.woff",
-    "static/media/reviews.webp": "/Arts-association/static/media/reviews.60778a391bd4a0f6e3a2.webp",
-    "static/media/ethics.webp": "/Arts-association/static/media/ethics.03aeb6d1213ca0ecca17.webp",
     "index.html": "/Arts-association/index.html",
     "static/media/arrow.svg": "/Arts-association/static/media/arrow.b47aba85701d32f77373af9326cdfc5f.svg",
-    "main.b90b82ae.css.map": "/Arts-association/static/css/main.b90b82ae.css.map",
-    "main.ecf9c0f2.js.map": "/Arts-association/static/js/main.ecf9c0f2.js.map",
+    "main.b9166756.css.map": "/Arts-association/static/css/main.b9166756.css.map",
+    "main.9115c022.js.map": "/Arts-association/static/js/main.9115c022.js.map",
     "453.6de8948d.chunk.js.map": "/Arts-association/static/js/453.6de8948d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b90b82ae.css",
-    "static/js/main.ecf9c0f2.js"
+    "static/css/main.b9166756.css",
+    "static/js/main.9115c022.js"
   ]
 }
