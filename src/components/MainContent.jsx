@@ -81,13 +81,13 @@ function MainContent() {
     </div>
     <div className='main-card flex-container'>
         <div>
-        <div className='title has-text-centered'>ОРДЕН «ЗА ЗАСЛУГИ В МАРКЕТИНГЕ»</div>
-        <div className='main-card-text has-text-centered' >Орден "За заслуги в маркетинге" вручается выдающимся маркетологам за личные высокие достижения, которые оказали значительное влияние на рост и развитие маркетинговой отрасли в своих странах и за её пределами.</div>
-        <div className="block button-content">
+        <div className='title has-text-centered'>Орден "Почетный деятель искусств"</div>
+        <div className='main-card-text has-text-centered' >Орден "Почетный деятель искусств" является высшей наградой, которую вручает Международная Ассоциация Деятелей Искусств. Он присуждается за выдающиеся достижения в области культуры и искусства, а также за международное признание талантов и вклада в культурное наследие.</div>
+        <div className="join-button-wrapper">
         <Link to={{
           pathname: "/order",
           state: { scrollToTop: true }
-        }} className="is-more-w">
+        }} className="join-button">
           <span>Перейти</span>
         </Link>
         </div>
