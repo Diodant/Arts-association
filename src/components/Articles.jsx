@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 function Articles() {
+
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	  }, []);
+
+
   return (
     <div className="xContent p-0">
       <Helmet>
@@ -11,7 +18,7 @@ function Articles() {
         name="description"
         content="Новости и события Международной Ассоциации Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/articles" />
+        <link rel="canonical" href="https://arts-association.com/articles" />
       </Helmet>
       <div className="articles-content">
         <div className="content-blur"></div>
@@ -46,31 +53,17 @@ function Articles() {
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
 
-            <Link className='articles-title' to="/article11">Торжественное вручение Орденов "За заслуги в маркетинге"</Link>
-
-    		    <div className="tags mt-3">
-			      <span className="articlesMember">Владислав Соколов</span>
-    		    </div>
-    		    </div>
-            <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
-
             <Link className='articles-title' to="/article04">С 7 по 12 июня состоится III Международный фестиваль классической музыки «Кантата»</Link>
     		    <div className="tags mt-3">
 			      <span className="articlesMember">Фестиваль</span>
     		    </div>
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
-            <Link className='articles-title' to="/article13">Рейтинг самых высокооплачиваемых маркетологов России по итогам 2021 года от Международной Ассоциации маркетологов</Link>
-    		    <div className="tags mt-3">
-			      <span className="articlesMember">Снежана Морозова</span>
-    		    </div>
-    		    </div>
-            <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
 
-            <Link className='articles-title' to="/article05">Лучшие практики рекрутинга респондентов</Link>
+            <Link className='articles-title' to="/article05">Шедевры Баха в джазовой интерпретации прозвучат в Калининграде</Link>
 
     		    <div className="tags mt-3">
-			      <span className="articlesMember">Фаина Аксенова</span>
+			      <span className="articlesMember">Концерт</span>
     		    </div>
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
@@ -79,10 +72,16 @@ function Articles() {
 			      <span className="articlesMember">Фестиваль</span>
     		    </div>
     		    </div>
-            <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
-            <Link className='articles-title' to="/article12">Наталья Фролова: Лидер в Мире Маркетинга</Link>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article11">Вручиение Ордена "Почетный деятель искусств" Международной Ассоциацией Деятелей Искусств</Link>
     		    <div className="tags mt-3">
-			      <span className="articlesMember">Александр Невинский</span>
+			      <span className="articlesMember">Наталья Стрельцова</span>
+    		    </div>
+    		    </div>
+            <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article12">Объявляем о приеме заявок для участия в первом Международном конкурсе звукорежиссеров.</Link>
+    		    <div className="tags mt-3">
+			      <span className="articlesMember">Кирил Кривошапка</span>
     		    </div>
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
@@ -101,6 +100,12 @@ function Articles() {
             <Link className='articles-title' to="/article09">Международный фестиваль «Москва встречает друзей»</Link>
     		    <div className="tags mt-3">
 			      <span className="articlesMember">Фестиваль</span>
+    		    </div>
+    		    </div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article13">В Гармонии Совершенства: Международный Конкурс Звукорежиссёров 2018</Link>
+    		    <div className="tags mt-3">
+			      <span className="articlesMember">Кирил Кривошапка</span>
     		    </div>
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">

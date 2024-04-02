@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import OrderImg from '../images/order.png'
+import OrderImg from '../images/order.jpeg'
 import { Helmet } from 'react-helmet-async';
 
 function Order() {
@@ -15,9 +15,9 @@ function Order() {
         <title>Орден "Почетный деятель искусств"</title>
         <meta
         name="description"
-        content='Орден "Почетный деятель искусств" является высшей наградой, которую вручает Международная Ассоциация Деятелей Искусств. Он присуждается за выдающиеся достижения в области культуры и искусства, а также за международное признание талантов и вклада в культурное наследие.'
+        content='Орден "Почетный деятель искусств" является высшей наградой, которую вручает Международная Ассоциация Деятелей Искусств.'
         />
-        <link rel="canonical" href="https://marketing-association.com/order" />
+        <link rel="canonical" href="https://arts-association.com/order" />
       </Helmet>
       <div className='xContent-wrapper'>
               <div className="page-title">Орден "Почетный деятель искусств"</div>

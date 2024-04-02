@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import memberImg from '../images/img1.png'
 import ArrowImg from '../images/arrow.svg'
@@ -27,6 +27,12 @@ const expertsData = [
   ];
 
 function MembersBA() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div className="xContent p-box py-6">
       <Helmet>
@@ -35,7 +41,7 @@ function MembersBA() {
         name="description"
         content="Почетные члены правления Международной Ассоциации Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/membersBA" />
+        <link rel="canonical" href="https://arts-association.com/membersBA" />
       </Helmet>
       <div className='xContent-wrapper'>
       <div className="page-title">Почетные члены правления</div>

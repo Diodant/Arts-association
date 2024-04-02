@@ -8,9 +8,9 @@ function Contacts() {
         <title>Контакты</title>
         <meta
         name="description"
-        content="Контакты Международной Ассоциации маркетологов СНГ"
+        content="Контакты Международной Ассоциации Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/contacts" />
+        <link rel="canonical" href="https://arts-association.com/contacts" />
       </Helmet>
       <div className='xContent-wrapper'>
       <div className="page-title">Контакты</div>

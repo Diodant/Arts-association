@@ -1,6 +1,11 @@
-
+import React, { useEffect } from 'react';
 
 function ArticlePage07() {
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="xContent p-box py-6">

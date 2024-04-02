@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 function Statute() {
@@ -24,6 +24,10 @@ function Statute() {
       }
     };
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
 
     return (
       <div className="xContent p-box py-6">
@@ -33,7 +37,7 @@ function Statute() {
         name="description"
         content='Устав Международной Ассоциации Деятелей Искусств'
         />
-        <link rel="canonical" href="https://marketing-association.com/statute"/>
+        <link rel="canonical" href="https://arts-association.com/statute"/>
       </Helmet>
         <div className="title p-60">
         УСТАВ Международной Ассоциации Деятелей Искусств

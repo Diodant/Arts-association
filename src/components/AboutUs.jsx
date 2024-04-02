@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ArrowImg from '../images/arrow.svg'
 import { Helmet } from 'react-helmet-async';
 
 function AboutUs() {
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div className="xContent p-box py-6">
       <Helmet>
@@ -11,7 +18,7 @@ function AboutUs() {
         name="description"
         content="Международная Ассоциация Деятелей Искусств является организацией, объединяющей выдающихся профессионалов в области искусства."
         />
-        <link rel="canonical" href="https://marketing-association.com/about-us" />
+        <link rel="canonical" href="https://arts-association.com/about-us" />
       </Helmet>
       <div className='xContent-wrapper'>
       <div className="page-title">О Международной Ассоциации Деятелей Искусств</div>

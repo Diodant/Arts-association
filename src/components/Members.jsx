@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { expertsData } from './membersData';
 import { Helmet } from 'react-helmet-async';
 
@@ -18,6 +18,10 @@ function Members() {
     setCurrentPage(pageNumber);
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
     return (
       <div>
@@ -25,9 +29,10 @@ function Members() {
         <title>Список членов Ассоциации</title>
         <meta
         name="description"
-        content="Список членов Международной Ассоциации Маркетологов СНГ"
+        content="Список членов Международной Ассоциации
+        Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/members" />
+        <link rel="canonical" href="https://arts-association.com/members" />
       </Helmet>
       <div className="members-content">
         <div className="content-blur"></div>

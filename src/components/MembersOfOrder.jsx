@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const expertsData = [
@@ -55,15 +55,21 @@ const expertsData = [
   ];
 
 function MembersOfOrder() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div className="xContent p-box py-6">
         <Helmet>
         <title>Кавалеры Орденского Знака</title>
         <meta
         name="description"
-        content='КАВАЛЕРЫ ОРДЕНА "ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ИСКУССТВ"'
+        content='Кавалеры ордена "Заслуженный деятель искусств"'
         />
-        <link rel="canonical" href="https://marketing-association.com/membersoforder" />
+        <link rel="canonical" href="https://arts-association.com/membersoforder" />
       </Helmet>
       <h1 className="title p-60">КАВАЛЕРЫ ОРДЕНА "ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ИСКУССТВ"</h1>
       <div className="expertsTable">

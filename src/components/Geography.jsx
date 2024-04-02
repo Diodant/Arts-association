@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 function Geography() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+
   return (
     <div className="xContent p-0">
           <Helmet>
@@ -10,7 +16,7 @@ function Geography() {
         name="description"
         content="География Международной Ассоциации Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/geography"/>
+        <link rel="canonical" href="https://arts-association.com/geography"/>
       </Helmet>
       <div className="geography-content">
         <div className="content-blur"></div>

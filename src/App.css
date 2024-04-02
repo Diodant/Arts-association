@@ -85,9 +85,8 @@ b {
     overflow-y:hidden;
     word-wrap:break-word;
     word-break:keep-all;
-    color:var(--color-grey);
+    color: #333333;
     font-size:24px;
-    font-family:var(--family-text-regular);
 }
 @media screen and (max-width: 1407px) {
     .wysiwyg {
@@ -308,8 +307,8 @@ a.is-more-glr:hover::before {
 
 @media (max-width: 1150px) {
   .xNaviMenu>ul>li>a {
-    font-size: 20px; /* Уменьшаем размер шрифта */
-    padding: 0.5rem 0; /* Уменьшаем размер отступов */
+    font-size: 20px;
+    padding: 0.5rem 0;
   }
 }
 
@@ -760,12 +759,17 @@ font-size: 28px;
   }
 
   .articles-container{
-    max-width: 1200px;
+    max-width: 1300px;
     padding: 15px;
-    background: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 250px;
     width: 30%;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* плавное изменение теней и преобразования */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* начальная тень */
+  }
+
+  .articles-container:hover {
+    transform: scale(1.05); /* увеличиваем размер немного при наведении */
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); /* увеличиваем тень при наведении */
   }
 
   .footer {
@@ -946,10 +950,11 @@ font-size: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
   }
 
   .articleImage img {
-    width: 350px;
+    width: 900px;
     height: auto;
   }
 

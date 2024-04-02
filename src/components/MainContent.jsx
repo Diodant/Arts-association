@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import News from './News';
-import OrderImg from '../images/order.png'
+import OrderImg from '../images/order.jpeg'
 import ArrowImg from '../images/arrow.svg'
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 function MainContent() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div>
               <Helmet>
@@ -13,7 +19,7 @@ function MainContent() {
         <meta property="og:type" content="website"/>
     <meta property="og:title" content="Международная Ассоциация Деятелей Искусств"/>
     <meta property="og:description" content="Международная Ассоциация Деятелей Искусств является организацией, объединяющей выдающихся профессионалов в области искусства."/>
-    <meta property="og:url" content="https://marketing-association.com/"/>
+    <meta property="og:url" content="https://arts-association.com/"/>
     <meta property="og:image" content="../../public/preview.png"/>
     <link rel="icon" href="../../public/logo.png" />
     <link rel="shortcut icon" href="../../public/logo.png" />
@@ -22,7 +28,7 @@ function MainContent() {
         content="Международная Ассоциация Деятелей Искусств является организацией, объединяющей выдающихся профессионалов в области искусства."
         />
 
-        <link rel="canonical" href="https://marketing-association.com/" />
+        <link rel="canonical" href="https://arts-association.com/" />
       </Helmet>
             <div className="main-content">
         <div className="content-blur"></div>

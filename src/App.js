@@ -1,6 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-// import Header from './components/Header';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import MainContent from './components/MainContent';
 import AboutUs from './components/AboutUs';
@@ -37,7 +36,6 @@ function App() {
   return (
     <Router>
       <div >
-        {/* <Header /> */}
         <Navigation />
         <Routes>
           <Route path="/about-us" element={<AboutUs />} />

@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 function EthicsCodex() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <div>
       <Helmet>
@@ -10,7 +16,7 @@ function EthicsCodex() {
         name="description"
         content="Этический кодекс члена Международной Ассоциации Деятелей Искусств"
         />
-        <link rel="canonical" href="https://marketing-association.com/ethicscodex" />
+        <link rel="canonical" href="https://arts-association.com/ethicscodex" />
       </Helmet>
       <div className="ethics-content">
         <div className="content-blur"></div>
