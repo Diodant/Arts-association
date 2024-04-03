@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import News from './News';
-import OrderImg from '../images/order.jpeg'
+import OrderImg from '../images/order.png'
 import ArrowImg from '../images/arrow.svg'
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';

@@ -74,6 +74,14 @@ function Articles() {
 				  <span className="articlesMember">Иван Радужный</span>
 				</div>
 				</div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+
+			<Link className='articles-title' to="/article20">Приём заявок на Международный конкурс творческих работ звукорежиссёров 2022 открыт!</Link>
+
+				<div className="tags mt-3">
+				  <span className="articlesMember">Иван Радужный</span>
+				</div>
+				</div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
             <Link className='articles-title' to="/article06">В Москве пройдет фестиваль забытых в советское время композиторов</Link>
     		    <div className="tags mt-3">
@@ -81,7 +89,13 @@ function Articles() {
     		    </div>
     		    </div>
 				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
-            <Link className='articles-title' to="/article11">Вручиение Ордена "Почетный деятель искусств" Международной Ассоциацией Деятелей Искусств</Link>
+            <Link className='articles-title' to="/article19">Свет волн и гармонии: завершение Первого Международного конкурса звукорежиссеров 2019</Link>
+    		    <div className="tags mt-3">
+			      <span className="articlesMember">Семен Огородников</span>
+    		    </div>
+    		    </div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article11">Вручение Ордена "Почетный деятель искусств" Международной Ассоциацией Деятелей Искусств</Link>
     		    <div className="tags mt-3">
 			      <span className="articlesMember">Наталья Стрельцова</span>
     		    </div>

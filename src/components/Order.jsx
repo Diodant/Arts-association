@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import OrderImg from '../images/order.jpeg'
+import OrderImg from '../images/order.png'
 import { Helmet } from 'react-helmet-async';
 
 function Order() {
