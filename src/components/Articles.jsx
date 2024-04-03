@@ -66,6 +66,14 @@ function Articles() {
 			      <span className="articlesMember">Концерт</span>
     		    </div>
     		    </div>
+			<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+
+			<Link className='articles-title' to="/article17">Подведены итоги Международного конкурса творческих работ звукорежиссеров 2022</Link>
+
+				<div className="tags mt-3">
+				  <span className="articlesMember">Иван Радужный</span>
+				</div>
+				</div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
             <Link className='articles-title' to="/article06">В Москве пройдет фестиваль забытых в советское время композиторов</Link>
     		    <div className="tags mt-3">
@@ -106,6 +114,12 @@ function Articles() {
             <Link className='articles-title' to="/article13">В Гармонии Совершенства: Международный Конкурс Звукорежиссёров 2018</Link>
     		    <div className="tags mt-3">
 			      <span className="articlesMember">Кирил Кривошапка</span>
+    		    </div>
+    		    </div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article18">31 марта состоялся финал Международного конкурса творческих работ звукорежиссёров 2018</Link>
+    		    <div className="tags mt-3">
+			      <span className="articlesMember">Святослав Овчинников</span>
     		    </div>
     		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
