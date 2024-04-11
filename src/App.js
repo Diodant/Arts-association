@@ -31,6 +31,8 @@ import ArticlePage17 from './components/Articles/ArticlePage17';
 import ArticlePage18 from './components/Articles/ArticlePage18';
 import ArticlePage19 from './components/Articles/ArticlePage19';
 import ArticlePage20 from './components/Articles/ArticlePage20';
+import ArticlePage21 from './components/Articles/ArticlePage21';
+import ArticlePage22 from './components/Articles/ArticlePage22';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import './fonts/fonts.css';
@@ -72,6 +74,8 @@ function App() {
           <Route path="/article18" element={<ArticlePage18 />} />
           <Route path="/article19" element={<ArticlePage19 />} />
           <Route path="/article20" element={<ArticlePage20 />} />
+          <Route path="/article21" element={<ArticlePage21 />} />
+          <Route path="/article22" element={<ArticlePage22 />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Footer />

@@ -75,13 +75,23 @@ function Articles() {
 				</div>
 				</div>
 				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
-
 			<Link className='articles-title' to="/article20">Приём заявок на Международный конкурс творческих работ звукорежиссёров 2022 открыт!</Link>
-
 				<div className="tags mt-3">
 				  <span className="articlesMember">Иван Радужный</span>
 				</div>
 				</div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+			<Link className='articles-title' to="/article21">Открыт прием заявок на Третий Международный открытый конкурс творческих работ звукорежиссеров "Gnesin Sound Competition 2022"</Link>
+				<div className="tags mt-3">
+				  <span className="articlesMember">Иван Соловьев</span>
+				</div>
+				</div>
+				<div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
+            <Link className='articles-title' to="/article22">Микрофон Подо Льдом: Прорыв Александра Курасова в Технике Звукозаписи</Link>
+    		    <div className="tags mt-3">
+			      <span className="articlesMember">Леонид Аксенов</span>
+    		    </div>
+    		    </div>
             <div className="block has-text-links has-border has-border-left-only has-border-width-2 has-border pl-4">
             <Link className='articles-title' to="/article06">В Москве пройдет фестиваль забытых в советское время композиторов</Link>
     		    <div className="tags mt-3">
