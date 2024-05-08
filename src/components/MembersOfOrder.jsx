@@ -79,7 +79,7 @@ function MembersOfOrder() {
             <th>ФИО</th>
             <th>Страна</th>
             <th>Профессия</th>
-            <th>Год вступления</th>
+            <th>Год награждения</th>
           </tr>
         </thead>
         <tbody>
