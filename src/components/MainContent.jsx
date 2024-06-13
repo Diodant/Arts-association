@@ -73,7 +73,7 @@ function MainContent() {
             <span className="content-text"><b>Писатели и поэты</b> – авторы литературных произведений.</span></li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" /></span>
-          <span className="content-text"><b>Режиссеры</b> – создатели театральных, кинематографических и других видов сценических произведений.</span></li>
+          <span className="content-text"><b>Режиссёры</b> — создатели кинофильмов, театральных постановок, телевизионных программ и других видов сценических произведений.</span></li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
             </span>
