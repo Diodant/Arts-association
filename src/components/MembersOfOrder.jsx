@@ -44,7 +44,7 @@ const expertsData = [
     { id: 40, name:  'Мария Попова      ', country: 'Казахстан   ', description: 'Танцор', year: '2021', },
     { id: 41, name:  'Сергей Безруков   ', country: 'Россия      ', description: 'Актер ', year: '2022', },
     { id: 42, name:  'Татьяна Степанова ', country: 'Украина    ', description: 'Певец ', year: '2022', },
-    { id: 43, name:  'Карен Шахназаров  ', country: 'Армения     ', description: 'Режиссер ', year: '2022', },
+    { id: 43, name:  'Арина Розова  ', country: 'Россия     ', description: 'Режиссер ', year: '2022', },
     { id: 44, name:  'Вячеслав Кузнецов ', country: 'Беларусь   ', description: 'Композитор ', year: '2022', },
     { id: 45, name:  'Дан Балан         ', country: 'Молдова     ', description: 'Певец ', year: '2022', },
     { id: 46, name:  'Владимир Морозов  ', country: 'Россия      ', description: 'Актер ', year: '2023', },
@@ -67,11 +67,11 @@ function MembersOfOrder() {
         <title>Кавалеры Орденского Знака</title>
         <meta
         name="description"
-        content='Кавалеры ордена "Заслуженный деятель искусств"'
+        content='Кавалеры ордена "Почетный деятель искусств"'
         />
         <link rel="canonical" href="https://arts-association.com/membersoforder" />
       </Helmet>
-      <h1 className="title p-60">КАВАЛЕРЫ ОРДЕНА "ЗАСЛУЖЕННЫЙ ДЕЯТЕЛЬ ИСКУССТВ"</h1>
+      <h1 className="title p-60">КАВАЛЕРЫ ОРДЕНА "ПОЧЕТНЫЙ ДЕЯТЕЛЬ ИСКУССТВ"</h1>
       <div className="expertsTable">
       <table>
         <thead>

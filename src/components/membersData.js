@@ -198,7 +198,7 @@ export const expertsData = [
     { id: 191, name: 'Ирина Фёдорова     ', country: 'Армения      ', description: 'Хореограф       ', year: '2019' },
     { id: 192, name: 'Анна Сидорова      ', country: 'Киргизия     ', description: 'Танцор          ', year: '2019' },
     { id: 193, name: 'Максим Попов       ', country: 'Молдова      ', description: 'Арт-директор    ', year: '2019' },
-    { id: 194, name: 'Дмитрий Фёдоров    ', country: 'Молдова      ', description: 'Сценарист       ', year: '2019' },
+    { id: 194, name: 'Арина Розова ', country: 'Россия  ', description: 'Режиссер       ', year: '2019' },
     { id: 195, name: 'Ольга Васильева    ', country: 'Молдова      ', description: 'Арт-директор    ', year: '2019' },
     { id: 196, name: 'Владимир Сидоров   ', country: 'Таджикистан  ', description: 'Сценарист       ', year: '2019' },
     { id: 197, name: 'Светлана Михайлова ', country: 'Таджикистан  ', description: 'Сценарист       ', year: '2019' },
