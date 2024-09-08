@@ -50,8 +50,8 @@ const expertsData = [
     { id: 46, name:  'Владимир Морозов  ', country: 'Россия      ', description: 'Актер ', year: '2023', },
     { id: 47, name:  'Андрей Петров     ', country: 'Азербайджан ', description: 'Танцор ', year: '2023', },
     { id: 48, name:  'Мария Морозова    ', country: 'Беларусь    ', description: 'Звукорежиссер ', year: '2023', },
-    { id: 49, name:  'Николай Сидоров   ', country: 'Киргизия    ', description: 'Актер ', year: '2023', },
-    { id: 50, name:  'Елена Соколова    ', country: 'Таджикистан ', description: 'Актер ', year: '2023', },
+    { id: 49, name:  'Сурен Джулакян   ', country: 'Россия    ', description: 'Продюсер ', year: '2023', },
+    { id: 50, name:  'Алиса Виноградова    ', country: 'Россия ', description: 'Режиссер ', year: '2023', },
   ];
 
 function MembersOfOrder() {

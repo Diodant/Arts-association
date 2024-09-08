@@ -10,6 +10,7 @@ import Statute from './components/Statute';
 import EthicsCodex from './components/EthicsCodex';
 import Order from './components/Order';
 import MembersOfOrder from './components/MembersOfOrder';
+import PositionOfOrder from './components/PositionOfOrder';
 import Articles from './components/Articles';
 import ArticlePage01 from './components/Articles/ArticlePage01';
 import ArticlePage02 from './components/Articles/ArticlePage02';
@@ -52,6 +53,7 @@ function App() {
           <Route path="/statute" element={<Statute />} />
           <Route path="/ethicscodex" element={<EthicsCodex />} />
           <Route path="/order" element={<Order />} />
+          <Route path="/positionoforder" element={<PositionOfOrder />} />
           <Route path="/membersoforder" element={<MembersOfOrder />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/article01" element={<ArticlePage01 />} />

@@ -51,6 +51,9 @@ function AboutUs() {
             <span className="content-text"><b>Писатели и поэты</b> – авторы литературных произведений.</span></li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" /></span>
+            <span className="content-text"><b>Продюсеры</b> — телевизионных программ, шоу, фильмов и сериалов.</span></li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" /></span>
           <span className="content-text"><b>Режиссеры</b> – создатели кинофильмов, театральных постановок, телевизионных программ и других видов сценических произведений.</span></li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />

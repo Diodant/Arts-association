@@ -569,7 +569,7 @@ a.is-more-glr:hover::before {
   display: inline-flex;
   position: relative;
     font-size: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     text-align: center;
     color: #333333;
     font-weight:600;
