@@ -60,7 +60,7 @@ function Statute() {
           <li onClick={() => scrollToSection(section1Ref)}><div className="li_style">Общие положения</div></li>
           <li onClick={() => scrollToSection(section2Ref)}><div className="li_style">Цели, предмет, виды деятельности</div></li>
           <li onClick={() => scrollToSection(section3Ref)}><div className="li_style">Права и обязанности</div></li>
-          <li onClick={() => scrollToSection(section4Ref)}><div className="li_style">Члены в ассоциации</div></li>
+          <li onClick={() => scrollToSection(section4Ref)}><div className="li_style">Членство в ассоциации</div></li>
           <li onClick={() => scrollToSection(section5Ref)}><div className="li_style">Управление ассоциацией</div></li>
           <li onClick={() => scrollToSection(section6Ref)}><div className="li_style">Общее собрание членов ассоциации</div></li>
           <li onClick={() => scrollToSection(section7Ref)}><div className="li_style">Правление ассоциации</div></li>
@@ -143,7 +143,7 @@ function Statute() {
       </ul>
       </section>
       <section id="4" ref={section4Ref}>
-      <div className="title is-font-title-regular has-text-left has-text-var-blue pt-6">4. ЧЛЕНЫ В АССОЦИАЦИИ</div>
+      <div className="title is-font-title-regular has-text-left has-text-var-blue pt-6">4. ЧЛЕНСТВО В АССОЦИАЦИИ</div>
       <p>4.1. Членство. Порядок приема и выхода из членов.</p>
       <p>4.1.1. Членство в Ассоциации является добровольным.</p>
       <p>4.1.2. Учредители Ассоциации являются ее членами с момента создания и имеют соответствующие права и обязанности. Членами Ассоциации могут быть физические и юридические лица.</p>

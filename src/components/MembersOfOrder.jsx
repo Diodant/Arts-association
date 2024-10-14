@@ -50,7 +50,7 @@ const expertsData = [
     { id: 46, name:  'Владимир Морозов  ', country: 'Россия      ', description: 'Актер ', year: '2023', },
     { id: 47, name:  'Андрей Петров     ', country: 'Азербайджан ', description: 'Танцор ', year: '2023', },
     { id: 48, name:  'Мария Морозова    ', country: 'Беларусь    ', description: 'Звукорежиссер ', year: '2023', },
-    { id: 49, name:  'Сурен Джулакян   ', country: 'Россия    ', description: 'Продюсер ', year: '2023', },
+    { id: 49, name:  'Сурен Джулакян', country: 'Россия    ', description: 'Продюсер ', year: '2023', },
     { id: 50, name:  'Алиса Виноградова    ', country: 'Россия ', description: 'Режиссер ', year: '2023', },
   ];
 
@@ -58,6 +58,26 @@ function MembersOfOrder() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Suren Dzhulakyan';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
   }, []);
 
 
@@ -85,7 +105,9 @@ function MembersOfOrder() {
         <tbody>
           {expertsData.map(expert => (
             <tr key={expert.id}>
-              <td>{expert.name}</td>
+              <td data-translate-custom={expert.name === "Сурен Джулакян" ? "true" : "false"}>
+                  {expert.name}
+              </td>
               <td>{expert.country}</td>
               <td>{expert.description}</td>
               <td>{expert.year}</td>

@@ -22,6 +22,27 @@ function Members() {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Suren Dzhulakyan';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
+
+
 
     return (
       <div>
@@ -60,7 +81,9 @@ function Members() {
           {currentItems.map(expert => (
               <tr key={expert.id}>
                 <td>{expert.id}</td>
-                <td>{expert.name}</td>
+                <td data-translate-custom={expert.name === 'Сурен Джулакян' ? "true" : "false"}>
+                  {expert.name}
+                </td>
                 <td>{expert.country}</td>
                 <td>{expert.description}</td>
                 <td>{expert.year}</td>
